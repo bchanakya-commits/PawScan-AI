@@ -1,7 +1,7 @@
 # Creature Classifier
 
 ## Live website (open this, upload a photo, press Predict)
-https://paw-scan-ai.vercel.app
+https://chanakya-paw-scan-ai.vercel.app
 
 Note: the first prediction can take about 1 minute because the free server is sleeping. Please wait, then try again.
 
