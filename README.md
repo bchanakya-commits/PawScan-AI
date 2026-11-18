@@ -1,3 +1,11 @@
+# Creature Classifier
+
+## Live website (open this, upload a photo, press Predict)
+https://paw-scan-ai.vercel.app
+
+Note: the first prediction can take about 1 minute because the free server is sleeping. Please wait, then try again.
+
+Backend status: https://pawscan-ai-bltr.onrender.com/health
 # PawScan AI
 
 Upload a photo and a MobileNetV2 model (TensorFlow/Keras) predicts **Cat**, **Dog** or **Bird**
