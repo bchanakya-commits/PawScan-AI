@@ -1,5 +1,5 @@
 // Backend address. Set VITE_API_URL in Vercel (production) or frontend/.env (local).
-export const API_URL = (import.meta.env.VITE_API_URL || export const API_URL = (import.meta.env.VITE_API_URL || "https://pawscan-ai-bltr.onrender.com").replace(/\/+$/, "");
+export const API_URL = (import.meta.env.VITE_API_URL || "https://pawscan-ai-bltr.onrender.com").replace(/\/+$/, "");
 export async function checkHealth() {
   const res = await fetch(`${API_URL}/health`);
   if (!res.ok) throw new Error(`Health check failed (${res.status})`);
